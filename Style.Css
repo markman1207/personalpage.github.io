@@ -1,0 +1,115 @@
+p {
+border: calc(100% - 5rem);
+}
+.button{
+    width: calc(25% - 10rem);
+    height: var(--height);
+    color: lightblue;
+}
+.element{
+    width: 300px;
+    background: red;
+}
+
+@media all and (min-width: 600px) {
+    .element{
+width: 400px;
+    }
+}
+
+@media print{
+    .element{
+        width: 400px;
+    }
+}
+@media all and (aspect-ratio: 11/6) {
+    .element {
+        height: 10px;
+    }
+}
+img {
+    height: 400px;
+    width:400px
+}
+p {
+text-align: center;
+}
+.header {
+    font-size: 40px;
+    color: blue;
+    display: inline-flex;
+}
+
+.table{
+display: table;
+}
+.table-row{
+    display: table;
+}
+.table-cell{
+display: table-cell;
+}
+html{
+    background-color: lightblue;
+}
+h2 {
+    text-align: center;
+}
+
+
+img {
+text-align: center;
+}
+.li {
+display: flex;
+}
+.ol {
+display: flex;
+text-align: center;
+}
+.ul {
+    display: flex;
+    text-align: centers;
+    
+}
+.ol {
+    margin: auto;
+    border: 1px solid #f97200;
+    color: #fff;
+    width: 190px;
+    padding: 10px;
+    background: #f99f53;
+    box-sizing: border-box;
+}
+div class ul {
+    margin: auto;
+}
+.li:hover {
+transform: translate(1rem);
+animation: move around 1s ease 0s infinite reverse both;
+}
+.image-container {
+    width: fit-content;
+    height: fit-content;
+    padding: 15rem;
+
+
+}
+button {
+    display: flex;
+    color: blue;
+    padding: initial;
+    margin: auto;
+    display: inline-block;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.head {
+    display: flex;
+}
+.button {
+    display: inline-flex ;
+
+}
